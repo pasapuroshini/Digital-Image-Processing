@@ -24,11 +24,11 @@ An **intensity ramp** is a gradual transition from dark to bright (or vice versa
 *   **At end:** change in slope again → **nonzero**
     
 
-📌 **Result:**It reacts **only where slope changes**, i.e., at the **start and end** of the ramp. This makes it produce **"thin" and precise edges**, ideal for exact localization.
+📌 **Result:** It reacts **only where slope changes**, i.e., at the **start and end** of the ramp. This makes it produce **"thin" and precise edges**, ideal for exact localization.
 
-### 🔷 **3\. Why This Matters in Edge Detection**
+<img width="756" alt="Screenshot 2025-05-02 at 1 46 48 PM" src="https://github.com/user-attachments/assets/9ad4e7fd-3b3d-4652-abfe-22b53f4fc996" />
 
-Derivative TypeResponse LocationEdge ThicknessFirst DerivativeStart and **throughout** the rampThick edgesSecond Derivative**Start and end** onlyThin edges
+
 
 ### 🔷 **Conclusion**
 
