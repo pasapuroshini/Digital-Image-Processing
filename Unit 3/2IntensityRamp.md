@@ -13,7 +13,7 @@ An **intensity ramp** is a gradual transition from dark to bright (or vice versa
 *   **Along the ramp:** constant increase → derivative is still **nonzero** (slope is steady)
     
 
-📌 **Result:**It detects edges, but because it stays nonzero along the whole ramp, it produces **"thick" edges** — a **broad area** of high values.
+📌 **Result:** It detects edges, but because it stays nonzero along the whole ramp, it produces **"thick" edges** — a **broad area** of high values.
 
 #### ✅ **Second-Order Derivative**
 
