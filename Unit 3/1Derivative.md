@@ -19,7 +19,10 @@ The **first derivative** tells us where the image intensity changes sharply — 
 
 #### Example Approximation:
 
-In 1D:f′(x)≈f(x+1)−f(x)f'(x) \\approx f(x+1) - f(x)f′(x)≈f(x+1)−f(x)In 2D (x-direction):∂f∂x≈f(x+1,y)−f(x,y)\\frac{\\partial f}{\\partial x} \\approx f(x+1, y) - f(x, y)∂x∂f​≈f(x+1,y)−f(x,y)
+
+<img width="383" alt="Screenshot 2025-05-02 at 1 36 04 PM" src="https://github.com/user-attachments/assets/77de3274-deae-44b2-a6dc-ff1f9dd218ba" />
+
+
 
 ### 🔹 **3\. Second Derivative (Edge Localization and Enhancement)**
 
@@ -36,7 +39,9 @@ The **second derivative** highlights regions where the rate of change itself cha
 
 #### Example Approximation:
 
-In 1D:f′′(x)≈f(x+1)+f(x−1)−2f(x)f''(x) \\approx f(x+1) + f(x-1) - 2f(x)f′′(x)≈f(x+1)+f(x−1)−2f(x)In 2D: **Laplacian operator**:∇2f(x,y)=f(x+1,y)+f(x−1,y)+f(x,y+1)+f(x,y−1)−4f(x,y)\\nabla^2 f(x, y) = f(x+1, y) + f(x-1, y) + f(x, y+1) + f(x, y-1) - 4f(x, y)∇2f(x,y)=f(x+1,y)+f(x−1,y)+f(x,y+1)+f(x,y−1)−4f(x,y)
+
+<img width="1053" alt="Screenshot 2025-05-02 at 1 36 51 PM" src="https://github.com/user-attachments/assets/9f4b2e08-b6f8-4d91-bfbc-3e6cf13db882" />
+
 
 ### 🔹 **4\. Digital Nature of Images**
 
@@ -48,3 +53,6 @@ Since digital images are:
     
 
 👉 **The smallest distance** over which a change can be detected is **between two adjacent pixels**.So, all derivative approximations are based on differences **between neighboring pixel intensities**.
+
+
+<img width="894" alt="Screenshot 2025-05-02 at 1 37 58 PM" src="https://github.com/user-attachments/assets/2af7c571-3d97-4d5e-ba3f-e555fef7cba2" />
